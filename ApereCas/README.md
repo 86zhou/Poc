@@ -5,4 +5,4 @@
 
 ### Demo
 
-![](img/CASDeserializePoC.gif)
+![](CASDeserializePoC.gif)
