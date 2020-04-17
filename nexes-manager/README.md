@@ -4,5 +4,5 @@
 ### CVE-2020-10204
 ![](imgs/20200403130016.png)
 
-### CVE-2020-groovy
+### CVE-2020-11753
 ![](imgs/nexus_groovy_calc3.gif)
